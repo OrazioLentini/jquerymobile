@@ -18,10 +18,15 @@
 	<div id="home" data-role ="page" data-title="View Source: Home">
 		<div data-role="header">
 			<h1>Home</h1>
-			<a href="#blog" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">Blog</a>
 		</div>
+		
 		<p>Welcome to the View Source App</p>
-		<a href="#blog" data-transition="flip">Blog</a>
+		<div data-role="controlgroup">
+			<a href="#blog" data-transition="flip" data-role="button" data-icon="arrow-r">Blog</a>
+			<a href="#video" data-transition="flip" data-role="button" data-icon="arrow-r">Videos</a>
+			<a href="#photos" data-transition="flip" data-role="button" data-icon="arrow-r">Photos</a>
+			<a href="#tweets" data-transition="flip" data-role="button" data-icon="arrow-r">Tweets</a>
+		</div>
 	</div>
 	
 	<div id="blog" data-role ="page" data-title="View Source: Blog">
@@ -30,6 +35,33 @@
 			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
 		</div>
 		<p>This is our blog.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+	
+	<div id="videos" data-role ="page" data-title="View Source: Videos">
+		<div data-role="header">
+			<h1>Videos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>Videos Page.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+	
+	<div id="photos" data-role ="page" data-title="View Source: Photos">
+		<div data-role="header">
+			<h1>Photos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>Photos from Flickr.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+	
+	<div id="tweets" data-role ="page" data-title="View Source: Tweets">
+		<div data-role="header">
+			<h1>Tweets</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>Tweets Page.</p>
 		<a href="#home" data-transition="pop">Home</a>
 	</div>
 </body>
