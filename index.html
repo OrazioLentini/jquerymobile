@@ -19,6 +19,7 @@
 	<div id="home" data-role ="page" data-title="View Source: Home">
 		<div data-role="header" data-position="fixed" data-id="vs_header">
 			<h1>Home</h1>
+			<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog" class="ui-btn-right">Info</a>
 		</div><!--Header-->
 		
 		<div data-role="content">Welcome to the View Source App</div>
@@ -35,6 +36,7 @@
 		<div data-role="header" data-position="fixed" data-id="vs_header">
 			<h1>Blog</h1>
 			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
 		</div><!--Header-->
 		
 		<div data-role="content"><!-- Sample Content -->
@@ -85,6 +87,7 @@
 		<div data-role="header" data-position="fixed" data-id="vs_header">
 			<h1>Videos</h1>
 			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
 		</div><!--Header-->
 		
 		<div data-role="content">
@@ -134,6 +137,7 @@
 		<div data-role="header" data-position="fixed" data-id="vs_header">
 			<h1>Photos</h1>
 			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
 		</div><!--Header-->
 		
 		<p>Photos from Flickr.</p>
@@ -155,6 +159,7 @@
 		<div data-role="header" data-position="fixed" data-id="vs_header">
 			<h1>Tweets</h1>
 			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+			<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog">Info</a>
 		</div><!--Header-->
 		
 		<p>Tweets Page.</p>
@@ -170,5 +175,23 @@
 			</div><!--Navbar-->
 		</div><!--Footer-->
 	</div><!--Page-->
+	
+	<div data-role="page" id="info">
+		<div data-role="header:">
+			<h1>About View Source</h1>
+		</div>
+		
+		<div data-role="content">
+			<p>
+				View Source offers short projects on intermediate to advanced web design topics,
+				covering technologies such as HTML, PHP, jQuery, and CSS,
+				as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.
+			</p>
+			
+			<a href="#" data-role="button" data-inline="true" data-rel="back">Cancel</a>
+			<a href="#home" data-role="button" data-inline="true">Home</a>
+			
+		</div>
+	</div>
 </body>
 </html>
