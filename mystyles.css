@@ -23,3 +23,41 @@ body {
 	display: block;
 	width: 90%;
 }
+
+.ui-icon-vs_videos {
+    background-image: url("../../images/icon_video.png");
+}
+
+.ui-icon-vs_photos {
+    background-image: url("../../images/icon_photo.png");
+}
+
+.ui-icon-vs_blog {
+    background-image: url("../../images/icon_blog.png");
+}
+
+.ui-icon-vs_tweets {
+    background-image: url("../../images/icon_twitter.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .ui-icon-vs_videos {
+	background-image: url("../../images/icon_video_hr.png");
+	background-size: 18px 18px;
+    }
+    
+    .ui-icon-vs_photos {
+	background-image: url("../../images/icon_photo_hr.png");
+	background-size: 18px 18px;
+    }
+    
+    .ui-icon-vs_blog {
+	background-image: url("../../images/icon_blog_hr.png");
+	background-size: 18px 18px;
+    }
+    
+    .ui-icon-vs_tweets {
+	background-image: url("../../images/icon_twitter_hr.png");
+	background-size: 18px 18px;
+    }
+}
