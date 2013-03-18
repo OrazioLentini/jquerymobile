@@ -31,4 +31,15 @@ function playVideo(id, title, description) {
 
 function jsonFlickrFeed(data) {
 	console.log(data);
-}
+	var output='';
+	for (var i=0; i<data.items.length; i++) {
+		var title = data.items[i].title;
+		var link = data.items[i].media.m.substring(0,56);
+		var blocktype = ((i%3)===2) ? 'c':
+				((i%3)===1) ? 'b': 'a';
+		output += '<div class="ui-block-' + blocktype + '">';
+		output += '<img src="' + link + '_q.jpg" alt="' + title + '"/>';
+		output += '</div>';
+	} // go through each photo
+	$('#photolist').html(output);
+} //jsonflickerfeed
