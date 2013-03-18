@@ -1,5 +1,4 @@
 function listVideos(data) {
-	console.log(data);
 	
 	var output ='';
 	for ( var i=0; i<data.feed.entry.length; i++) {
@@ -28,4 +27,8 @@ function playVideo(id, title, description) {
 	output += '<h3>' + title + '</h3>';
 	output += '<p>' + unescape(description) + '</p>';
 	$('#myplayer').html(output);
+}
+
+function jsonFlickrFeed(data) {
+	console.log(data);
 }
