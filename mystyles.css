@@ -72,6 +72,43 @@ body {
 	padding: 0 5%;
 }
 
+#photolist img {
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-border-radius: 10px;
+}
+
+#photolist .ui-block-a,
+#photolist .ui-block-b,
+#photolist .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+
+#photolist.ui-grid-c {
+	width: 330px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#showphoto {
+	background: black;
+}
+
+#showphoto img {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+#showphoto .ui-content {
+	width: 100%;
+	padding: 0;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .ui-icon-vs_videos {
 	background-image: url("../../images/icon_video_hr.png");
